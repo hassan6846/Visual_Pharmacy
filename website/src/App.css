@@ -1,42 +1,150 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.Hero-Section {
+    height: 100vh;
+    width: 100%;
+    background-color: #141414;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.Hero-Nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 100%;
+
+    justify-content: space-between;
+    align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-wrapper {
+
+    margin-top: 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-wrapper:hover {
+    cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+.Hero_head {
+    font-size: 5rem;
+    line-height: 1.1;
+    font-family: 'Atteron Personal Use', sans-serif;
+    text-align: center;
+    color: #fff;
 }
 
-.read-the-docs {
-  color: #888;
+
+.Hero_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Head_container {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* ///////////////////////Project Section */
+
+.Project-Sections {
+    padding: 5rem;
+    font-family: 'Atteron Personal Use', sans-serif;
+    cursor: pointer;
+    height: 140vh;
+}
+
+.Project-Head {
+    line-height: 1.1;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.Image-Wrappper {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.project-subtitle {
+    margin-top: 0.5rem;
+    color: #fff;
+}
+
+.middle_card {
+    margin-top: -8rem;
+}
+
+.loader {
+    font-family: 'Bummer', sans-serif;
+    font-family: 'Bummer Condensed', sans-serif;
+    font-family: 'Bummer Laser', sans-serif;
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Bummer 3D', sans-serif;
+    font-family: 'Bummer Condensed Italic', sans-serif;
+    font-family: 'Bummer Italic', sans-serif;
+    font-family: 'Bummer Laser Italic', sans-serif;
+    font-family: 'Bummer Leftalic', sans-serif;
+    font-family: 'Bummer 3D Italic', sans-serif;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+
+}
+
+/* About me */
+.Aboutme-contianer {
+    height: auto;
+
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.About-me_head {
+    line-height: 1.1;
+
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Atteron Personal Use', sans-serif;
+}
+
+.About-me-paragraph {
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    line-height: 1.4rem;
+    font-style: normal;
+
+}
+
+.Shop_container {
+    padding: 5rem;
+
+}
+
+.Shop-head {
+    line-height: 1.1;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Atteron Personal Use', sans-serif;
+    font-family: 'Atteron Personal Use', sans-serif;
+
+}
+.Contact-Section{
+    padding: 5rem;
+}
+.Contact-head{
+    font-size: 5rem;
+    line-height: 1.1;
+    font-family: 'Atteron Personal Use', sans-serif;
+    color: #fff;
 }
