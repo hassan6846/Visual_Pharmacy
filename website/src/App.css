@@ -93,6 +93,11 @@
 
 }
 
+.Contact-Section {
+    padding: 5rem;
+    min-height: 100vh; /* Ensure this section takes full screen height */
+  }
+  
 /* About me */
 .Aboutme-contianer {
     height: auto;
@@ -111,6 +116,7 @@
     font-size: 2rem;
     font-family: 'Atteron Personal Use', sans-serif;
 }
+
 
 .About-me-paragraph {
     color: #fff;
@@ -147,4 +153,12 @@
     line-height: 1.1;
     font-family: 'Atteron Personal Use', sans-serif;
     color: #fff;
+}
+.More_Work{
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Atteron Personal Use', sans-serif;
+    text-align: center;
 }
